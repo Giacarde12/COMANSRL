@@ -91,6 +91,7 @@ export const Projects: React.FC = () => {
                   loop 
                   muted 
                   playsInline
+                  onLoadedMetadata={(e) => (e.currentTarget as HTMLVideoElement).play()}
                 >
                   <source src="/TIMELAPSE.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
