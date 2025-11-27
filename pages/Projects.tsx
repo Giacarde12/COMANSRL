@@ -8,16 +8,16 @@ const PROJECTS = [
     title: "Rifacimento facciate condominiali",
     location: "Roma",
     desc: "Intervento completo di restauro e consolidamento delle facciate, con risultati estetici e strutturali di alto livello.",
-    before: "/asset/disegno.png",
-    after: "/asset/intera.png"
+    before: "/disegno.png",
+    after: "/intera.png"
   },
   {
     id: 2,
     title: "Villa San Pietro – Adeguamento cucina e mensa",
     location: "Taranto",
     desc: "Adeguamento e manutenzione straordinaria di cucina e mensa aziendale, con impianti rinnovati e finiture moderne.",
-    before: "/asset/gialladisegno.jpeg",
-    after: "/asset/gialla.jpg"
+    before: "/gialladisegno.jpeg",
+    after: "/gialla.jpg"
   }
 ];
 
@@ -92,7 +92,7 @@ export const Projects: React.FC = () => {
                   muted 
                   playsInline
                 >
-                  <source src="/asset/TIMELAPSE.mp4" type="video/mp4" />
+                  <source src="/TIMELAPSE.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>

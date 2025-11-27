@@ -65,7 +65,7 @@ export const Header: React.FC = () => {
         {/* Logo */}
         <a href="#home" onClick={(e) => scrollToSection(e, 'home')} className="flex items-center gap-3 group">
           <img 
-            src="/asset/LOGO COMAN 2.jpg" 
+            src="/LOGO COMAN 2.jpg" 
             alt="COMAN SRL Logo" 
             className="h-16 object-contain group-hover:opacity-80 transition-opacity"
           />
